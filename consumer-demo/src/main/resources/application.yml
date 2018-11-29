@@ -1,0 +1,10 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: consumer-demo
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10086/eureka
+#  eureka服务发现

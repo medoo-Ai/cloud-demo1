@@ -1,0 +1,12 @@
+server:
+  port: 10086
+spring:
+  application:
+    name: eureka-server
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10086/eureka
+    fetch-registry: false   #\u4E0D\u62C9\u53BB\u670D\u52A1
+    register-with-eureka: false   #\u6CE8\u518C eureka\u670D\u52A1
+    #  \uFF1Ahttp://127.0.0.1:10086/eureka
